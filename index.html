@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather</title>
+        <link rel="shortcut icon" href="./sun.png" type="image/png" />
+    </head>
+    <body class="bg-[#006778]">
+        <div class="app flex justify-center items-center h-screen">
+            <div
+                class="weather bg-[#0093AB] rounded-lg shadow-inner w-3/12 h-auto text-slate-50 font-sans"
+            >
+                <div class="weather-content p-5">
+                    <section
+                        class="weather-day-now flex items-center flex-wrap"
+                    ></section>
+                    <section
+                        class="weather-forecast flex-auto gap-x-4 gap-y-6 pt-10 flex flex-wrap justify-center items-center"
+                    ></section>
+                    <div
+                        class="buttons flex justify-between items-center pt-5 flex-wrap"
+                    >
+                        <section class="flex justify-center flex-col gap-2">
+                            <button
+                                value="Moscow"
+                                class="bg-[#00AFC1] rounded p-2 ease-in duration-300 hover:shadow-xl"
+                            >
+                                Москва
+                            </button>
+                            <button
+                                value="Saint-Petersburg"
+                                class="bg-[#00AFC1] rounded p-2 ease-in duration-300 hover:shadow-xl"
+                            >
+                                Санкт-Петербург
+                            </button>
+                            <button
+                                value="Novosibirsk"
+                                class="bg-[#00AFC1] rounded p-2 ease-in duration-300 hover:shadow-xl"
+                            >
+                                Новосибирск
+                            </button>
+                            <button
+                                value="Ekaterinburg"
+                                class="bg-[#00AFC1] rounded p-2 ease-in duration-300 hover:shadow-xl"
+                            >
+                                Екатеринбург
+                            </button>
+                            <button
+                                value="Kazan"
+                                class="bg-[#00AFC1] rounded p-2 ease-in duration-300 hover:shadow-xl"
+                            >
+                                Казань
+                            </button>
+                        </section>
+                        <section class="flex justify-center flex-col gap-2">
+                            <button
+                                value="Nizhniy Novgorod"
+                                class="bg-[#00AFC1] rounded p-2 ease-in duration-300 hover:shadow-xl"
+                            >
+                                Нижний Новгород
+                            </button>
+                            <button
+                                value="Chelyabinsk"
+                                class="bg-[#00AFC1] rounded p-2 ease-in duration-300 hover:shadow-xl"
+                            >
+                                Челябинск
+                            </button>
+                            <button
+                                value="Samara"
+                                class="bg-[#00AFC1] rounded p-2 ease-in duration-300 hover:shadow-xl"
+                            >
+                                Самара
+                            </button>
+                            <button
+                                value="Omsk"
+                                class="bg-[#00AFC1] rounded p-2 ease-in duration-300 hover:shadow-xl"
+                            >
+                                Омск
+                            </button>
+                            <button
+                                value="Rostov-on-Don"
+                                class="bg-[#00AFC1] rounded p-2 ease-in duration-300 hover:shadow-xl"
+                            >
+                                Ростов-на-Дону
+                            </button>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="module" src="./js/app.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </body>
+</html>
